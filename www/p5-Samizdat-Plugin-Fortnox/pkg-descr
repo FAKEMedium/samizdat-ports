@@ -1,0 +1,3 @@
+Fortnox accounting integration for Samizdat (operator back-office: customers,
+invoices, payments, OAuth2). One of the Samizdat-Plugin-* distributions; requires the
+Samizdat core application.

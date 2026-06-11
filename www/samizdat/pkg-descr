@@ -1,0 +1,8 @@
+Samizdat is a Mojolicious-based static-content hybrid generator that prioritises
+speed, internationalisation and offline capability. Content is authored in Markdown
+and YAML and rendered to static HTML and WebP. It ships a back-office hosting panel
+and integrates with external services through optional Samizdat-Plugin-* modules.
+
+This port installs the core application and its rc.d service scripts (samizdat,
+minion). Configuration lives under ${PREFIX}/etc/samizdat/, per-site content and the
+generated static cache under /usr/local/www/samizdat/.
